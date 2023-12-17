@@ -291,7 +291,7 @@ namespace Case_Study_YC
         }
 
         private BindingSource productsBindingSource = [];
-        private DataGridView dataGridViewProducts;
+        private DataGridView? dataGridViewProducts;
         private void StartSelectingProducts(Customer customer)
         {
 

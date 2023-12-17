@@ -12,7 +12,7 @@ namespace Case_Study_YC.Classes
             CategorieName = name!;
         }
 
-        public DataTable AddCategorie()
+        public DataTable? AddCategorie()
         {
             if (!string.IsNullOrEmpty(CategorieName))
             {
