@@ -231,7 +231,7 @@ namespace Case_Study_YC
 
         private void SearchUserBtn_Click(object sender, EventArgs e)
         {
-            string query = @"SELECT FirstName, LastName, Email, Phone FROM Customers WHERE
+            string query = @"SELECT FirstName as 'First Name', LastName as 'Last Name', Email as 'E-Mail', Phone FROM Customers WHERE
                 FirstName LIKE ? OR
                 LastName LIKE ? OR
                 Email LIKE ? OR
