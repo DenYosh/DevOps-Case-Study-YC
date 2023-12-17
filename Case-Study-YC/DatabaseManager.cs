@@ -5,7 +5,7 @@ namespace Case_Study_YC
 {
     internal class DatabaseManager
     {
-        private static readonly string fileLocation = @"..\..\..\Files\SQLite-Database-YC.db";
+        private static readonly string fileLocation = @"..\..\Files\SQLite-Database-YC.db";
         private static readonly string connectionString = "Data Source=" + fileLocation + ";Version=3;";
 
         public static void CreateDatabase()
